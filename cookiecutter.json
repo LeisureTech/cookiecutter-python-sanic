@@ -1,9 +1,9 @@
 {
     "project_name": "Start Python Project",
-    "module_name": "start python project",
-    "author_name": "Susie Softwaredeveloper",
-    "author_email": "susie@example.com",
-    "github_username": "susieexample",
+    "module_name": "start-python-project",
+    "author_name": "Jane Doe",
+    "author_email": "janedoe@example.com",
+    "github_username": "janedoe",
     "project_version": "0.1.0",
-    "project_short_description": "A basic Python project."
+    "project_short_description": "A start python project."
 }

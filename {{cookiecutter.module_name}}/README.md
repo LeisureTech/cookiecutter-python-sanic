@@ -15,5 +15,8 @@ Activate env
 pyenv activate python-starter-3.8.9
 ```
 
-Freeze requirements only in the virtual environment
-path/to/venv/bin/pip3 freeze -l
+Automatically create requirements
+```bash
+python -m pip freeze > requirements.txt
+python -m pip install -r requirements.txt
+```
