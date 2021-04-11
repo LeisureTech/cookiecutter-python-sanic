@@ -25,7 +25,7 @@ pyenv --version  # pyenv 1.2.26
 # create a python virtual env
 pyenv virtualenv 3.8.9 python-starter-3.8.9
 # activate the virtual env
-pyenv virtualenv 3.8.9 python-starter-3.8.9
+pyenv activate python-starter-3.8.9
 ```
 
 This project adopts pre-commit framework to maintain code readability and consistency.
