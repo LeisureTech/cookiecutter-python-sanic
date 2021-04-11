@@ -5,8 +5,8 @@
 ----
 ## Table of contents
 - [Setup](#setup)
-- [How to run the project](#run project)
-- [Useful Commands](#Useful Commands)
+- [How to run the project](#run)
+- [Useful Commands](#commands)
 
 ----
 ## Setup <a name="setup"></a>
@@ -25,7 +25,7 @@ pyenv --version  # pyenv 1.2.26
 # create a python virtual env
 pyenv virtualenv 3.8.9 python-starter-3.8.9
 # activate the virtual env
-pyenv virtualenv 3.8.9 python-starter-3.8.9
+pyenv activate python-starter-3.8.9
 ```
 
 This project adopts pre-commit framework to maintain code readability and consistency.
@@ -36,14 +36,14 @@ pip install pre-commit
 ```
 
 ----
-### How to run the project <a name="run project"></a>
+### How to run the project <a name="run"></a>
 Docker:
 ```bash
 docker-compose up -d
 ```
 
 ----
-### Useful commands  <a name="Useful commands"></a>
+### Useful commands  <a name="commands"></a>
 
 Automatically create requirements
 ```bash
