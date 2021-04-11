@@ -1,18 +1,23 @@
-version: '3'
+version: '3.1'
 
 services:
   db:
-    image: postgres:12.0-alpine
+    image: postgres:13-alpine
+    restart: always
     ports:
       - "5432:5432"
-    env_file:
-    - .env.dev
-    volumes:
-      - postgres_data:/var/lib/postgresql/data/
     environment:
       - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=12345
-      - POSTGRES_DB=smartguard
+      - POSTGRES_PASSWORD=123456
+      - POSTGRES_DB={{cookiecutter.module_name}}
 
-volumes:
-  postgres_data:
+  redis:
+    restart: always
+    image: 6.2-alpine
+
+  mongo:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: 123456
