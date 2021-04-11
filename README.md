@@ -1,21 +1,19 @@
 # Python Project Generator
 
-A simple project template for a micro service.
-
-Based on Quart framework.
+A simple project template for a micro service. Based on Sanic framework.
 
 Use alembic for dbmigration.
 
 Dockerized project.
 
-- Documentation: https://cookiecutter.readthedocs.io
-- GitHub: https://github.com/cookiecutter/cookiecutter
-- PyPI: https://pypi.org/project/cookiecutter/
+- Cookiecutter documentation: https://cookiecutter.readthedocs.io
 
+### To create a new project
 
 ```bash
-Create project from the template
-$ cookiecutter https://github.com/*
+mkdir /new-repository
+# Create project from the template
+cookiecutter https://github.com/LeisureTech/python-project-generator
 # For the sake of brevity, repos on GitHub can just use the 'gh' prefix
-$ cookiecutter gh:*
+cookiecutter gh:LeisureTech/python-project-generator
 ```
