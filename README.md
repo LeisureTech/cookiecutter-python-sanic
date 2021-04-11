@@ -2,7 +2,11 @@
 
 A simple project template for a micro service.
 
-// TODO: Add more
+Based on Quart framework.
+
+Use alembic for dbmigration.
+
+Dockerized project.
 
 - Documentation: https://cookiecutter.readthedocs.io
 - GitHub: https://github.com/cookiecutter/cookiecutter

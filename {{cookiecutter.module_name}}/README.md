@@ -5,8 +5,8 @@
 ----
 ## Table of contents
 - [Setup](#setup)
-- [How to run the project](#run project)
-- [Useful Commands](#Useful Commands)
+- [How to run the project](#run)
+- [Useful Commands](#commands)
 
 ----
 ## Setup <a name="setup"></a>
@@ -36,14 +36,14 @@ pip install pre-commit
 ```
 
 ----
-### How to run the project <a name="run project"></a>
+### How to run the project <a name="run"></a>
 Docker:
 ```bash
 docker-compose up -d
 ```
 
 ----
-### Useful commands  <a name="Useful commands"></a>
+### Useful commands  <a name="commands"></a>
 
 Automatically create requirements
 ```bash
