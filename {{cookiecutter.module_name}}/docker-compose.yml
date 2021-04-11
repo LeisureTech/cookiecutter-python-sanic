@@ -12,8 +12,8 @@ services:
       - POSTGRES_DB={{cookiecutter.module_name}}
 
   redis:
+    image: 6.0-alpine
     restart: always
-    image: 6.2-alpine
 
   mongo:
     image: mongo
