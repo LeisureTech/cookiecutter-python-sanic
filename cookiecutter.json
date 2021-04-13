@@ -1,4 +1,5 @@
 {
+    "package_name": "template-sanic",
     "project_name": "Start Python Project",
     "project_short_description": "A start python project.",
     "module_name": "start-python-project",
