@@ -4,9 +4,11 @@ import multiprocessing
 
 from auth.auth import protected
 from auth.login import login
+from configs.config import auth_settings
 
-app = Sanic("My Hello, world app")
-app.config.SECRET = "KEEP_IT_SECRET_KEEP_IT_SAFE"
+app = Sanic("{{cookiecutter.module_name}}")
+app.config.update(auth_settings)
+
 app.blueprint(login)
 
 
