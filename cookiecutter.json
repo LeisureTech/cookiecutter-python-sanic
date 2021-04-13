@@ -1,8 +1,10 @@
 {
     "project_name": "Start Python Project",
-    "module_name": "start-python-project",
     "project_short_description": "A start python project.",
-    "full_name": "Leisure Mojo",
+    "module_name": "start-python-project",
+    "app_name": "Simple App",
+    "app_secret": "THIS IS A SECRET",
+    "full_name": "This is used for your license",
     "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"],
     "_copy_without_render": [".github/*"]
 }
