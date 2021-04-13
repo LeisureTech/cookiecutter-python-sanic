@@ -5,6 +5,7 @@
 ----
 ## Table of contents
 - [Setup](#setup)
+- [Init Git](#git)
 - [How to run the project](#run)
 - [Useful Commands](#commands)
 
@@ -33,6 +34,15 @@ Before you run hooks, you need to have pre-commit package manager installed.
 
 ```bash
 pip install pre-commit
+```
+
+
+----
+## Init Git <a name="git"></a>
+Please install pre-commit git hook scripts so that it will run automatically on every commit.
+
+```bash
+pre-commit bash
 ```
 
 ----
