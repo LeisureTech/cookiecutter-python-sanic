@@ -1,9 +1,13 @@
 from setuptools import setup
 
-__version__ = "0.0.0"
+__version__ = '{{cookiecutter.version}}'
 
 setup(
-   name="{{cookiecutter.package_name}}",
+   name='{{cookiecutter.package_name}}',
    version=__version__,
-   # And so on...
+   description='{{cookiecutter.project_short_description}}',
+   author='{{cookiecutter.full_name}}',
+   author_email='{{cookiecutter.email}}',
+   license='{{cookiecutter.open_source_license}}',
+   python_requires='>=3.7'
 )
