@@ -45,7 +45,7 @@ articles, and such.
 Submit Feedback
 ~~~~~~~~~~~~~~~
 
-The best way to send feedback is to file an issue at https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.package-name }}/issues.
+The best way to send feedback is to file an issue at https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.package_name }}/issues.
 
 If you are proposing a feature:
 
@@ -111,8 +111,9 @@ Tips
 
 To run a subset of tests::
 
-    $ pytest tests.test_{{ cookiecutter.project_slug }}
-    $ python -m unittest tests.test_{{ cookiecutter.project_slug }}
+    $ pytest tests.test_{{ cookiecutter.module_name }}
+    $ python -m unittest tests.test_{{ cookiecutter.module_name }}
+
 
 Deploying
 ---------
