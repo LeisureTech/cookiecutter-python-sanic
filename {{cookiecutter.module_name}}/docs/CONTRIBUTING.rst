@@ -114,6 +114,7 @@ To run a subset of tests::
     $ pytest tests.test_{{ cookiecutter.module_name }}
     $ python -m unittest tests.test_{{ cookiecutter.module_name }}
 
+
 Deploying
 ---------
 
