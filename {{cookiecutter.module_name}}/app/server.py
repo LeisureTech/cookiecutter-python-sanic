@@ -24,4 +24,4 @@ async def secret(request):
 
 if __name__ == "__main__":
     workers = multiprocessing.cpu_count()
-    app.run(host="0.0.0.0", port=8000, workers=workers)
+    app.run(host="0.0.0.0", port='{{cookiecutter.port}}', workers=workers)

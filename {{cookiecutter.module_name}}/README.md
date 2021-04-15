@@ -4,18 +4,22 @@
 
 ----
 ## Table of contents
-- [Setup](#setup)
+- [Introduction]()
+- [Get Started](#getstarted)
 - [Init Git](#git)
 - [How to run the project](#run)
 - [Useful Commands](#commands)
 
 ----
-## Setup <a name="setup"></a>
+## Introduction <a name="introduction"></a>
+// TODO: To fill in
+
+## Get Started <a name="getstarted"></a>
 
 Before you can run this project, you need to have python installed.
-You can use [pyenv](https://github.com/pyenv/pyenv) as your Python version management tool.
+You can use [pyenv](https://github.com/pyenv/pyenv) to create a virtual environment.
 
-### On macOS:
+### Python >= 3.7:
 Consider installing with [Homebrew](https://docs.brew.sh/):
 ```bash
 brew update
@@ -29,6 +33,14 @@ pyenv virtualenv 3.8.9 python-starter-3.8.9
 pyenv activate python-starter-3.8.9
 ```
 
+### Alembic for db migration
+```bash
+pip install alembic
+# auto generate migration file
+# run db migration
+```
+
+### Pre-commit
 This project adopts pre-commit framework to maintain code readability and consistency.
 Before you run hooks, you need to have pre-commit package manager installed.
 
@@ -49,11 +61,11 @@ pre-commit bash
 ### How to run the project <a name="run"></a>
 Docker:
 ```bash
-docker-compose up -d
+docker build -p
 ```
 
 ----
-### Useful commands  <a name="commands"></a>
+### Dev commands  <a name="commands"></a>
 
 Automatically create requirements
 ```bash
