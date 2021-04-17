@@ -1,14 +1,9 @@
 postgres_settings = {
-    'DB_HOST': 'localhost',
-    'DB_NAME': 'appdb',
-    'DB_USER': 'appuser'
+    "DB_HOST": "localhost",
+    "DB_NAME": "appdb",
+    "DB_USER": "appuser",
 }
 
-redis_settings = {
+redis_settings = {}
 
-}
-
-auth_settings = {
-    'PRIVATE_KEY': "",
-    'PUBLIC_KEY': ""
-}
+auth_settings = {"PRIVATE_KEY": "", "PUBLIC_KEY": ""}

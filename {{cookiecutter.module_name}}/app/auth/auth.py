@@ -13,6 +13,7 @@ def check_token(request):
         jwt.decode(
             request.token, request.app.config.SECRET, algorithms=["HS256"]
         )
+
     except jwt.exceptions.InvalidTokenError:
         print("Unexpected error:", sys.exc_info()[0])
         return False

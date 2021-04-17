@@ -20,7 +20,8 @@ def context():
             "ISC license",
             "Apache Software License 2.0",
             "GNU General Public License v3",
-            "Not open source"]
+            "Not open source",
+        ],
     }
 
 
@@ -37,7 +38,7 @@ def test_has_license(cookies, context):
     result = cookies.bake(extra_context=context)
     assert result.exit_code == 0
     assert result.exception is None
-    assert result.project.join('LICENSE').check(file=1)
+    assert result.project.join("LICENSE").check(file=1)
 
 
 def test_no_license(cookies, context):
@@ -45,4 +46,4 @@ def test_no_license(cookies, context):
     result = cookies.bake(extra_context=context)
     assert result.exit_code == 0
     assert result.exception is None
-    assert not result.project.join('LICENSE').check(file=1)
+    assert not result.project.join("LICENSE").check(file=1)
