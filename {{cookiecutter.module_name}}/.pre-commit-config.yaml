@@ -6,6 +6,13 @@ repos:
       - id: end-of-file-fixer
       - id: trailing-whitespace
       - id: name-tests-test
+  # formatter
+  - repo: https://github.com/psf/black
+    rev: stable
+    hooks:
+      - id: black
+        language_version: python3.7
+  # Linter
   - repo: https://github.com/pycqa/flake8
     rev: 3.9.0
     hooks:
