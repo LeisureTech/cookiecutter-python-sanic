@@ -1,4 +1,7 @@
 import os
+import logging
+
+logger = logging.getLogger(__name__)
 
 PROJECT_DIRECTORY = os.path.realpath(os.path.curdir)
 
@@ -10,4 +13,5 @@ def remove_file(filepath):
 if __name__ == '__main__':
 
     if 'Not open source' == '{{ cookiecutter.open_source_license }}':
-        remove_file('/{{cookiecutter.module_name}}/LICENSE')
+        logger.info("Project {{cookiecutter.module_name}} is not open source")
+        remove_file('LICENSE')
