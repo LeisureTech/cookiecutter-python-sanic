@@ -4,6 +4,9 @@ Release notes to this project will be documented in this file.
 
 <!--next-version-placeholder-->
 
+## v0.2.1 (2021-04-18)
+
+
 ## v0.1.0 (2021-04-17)
 The basic framework was set up in this release.
 
