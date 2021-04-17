@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - master
-      - fix-semantic-release-action
+
 jobs:
   release_notes:
     runs-on: ubuntu-latest

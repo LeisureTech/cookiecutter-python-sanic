@@ -8,11 +8,9 @@ categories:
       - 'enhancement'
   - title: '🐛 Bug Fixes'
     labels:
-      - 'fix'
       - 'bugfix'
-      - 'bug'
   - title: 'Doc Updates'
-    label: 'doc'
+    label: 'documentation'
 
 template: |
   ## Changes
