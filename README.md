@@ -45,3 +45,9 @@ We use `python-semantic-release` to do semantic version release.
 ```bash
 pip install python-semantic-release
 ```
+To release a new version,
+```bash
+semantic-release version --minor/--patch/--major # bump version
+git push
+git push --tags
+```
