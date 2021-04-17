@@ -55,6 +55,12 @@ Docker:
 docker build -p
 ```
 
+
+----
+### Deployment
+
+// TODO: To ECS
+
 ----
 ### Dev commands  <a name="commands"></a>
 
