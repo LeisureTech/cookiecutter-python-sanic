@@ -47,7 +47,5 @@ pip install python-semantic-release
 ```
 To release a new version,
 ```bash
-semantic-release version --minor/--patch/--major # bump version
-git push
-git push --tags
+semantic-release publish --minor/--patch/--major # bump version
 ```

@@ -5,7 +5,10 @@ Release notes to this project will be documented in this file.
 <!--next-version-placeholder-->
 
 ## v0.2.1 (2021-04-18)
+Tested python-semantic-release package
 
+## v0.2.0 (2021-04-17)
+Tested semantic release GitHub Action
 
 ## v0.1.0 (2021-04-17)
 The basic framework was set up in this release.
