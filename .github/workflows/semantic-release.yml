@@ -1,21 +1,13 @@
-name: Semantic Release
+name: Release Drafter
 
 on:
   push:
     branches:
       - master
-
 jobs:
-  release:
+  release_notes:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
-
-    - name: Python Semantic Release
-      uses: relekang/python-semantic-release@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        # pypi_token: ${{ secrets.PYPI_TOKEN }}
+      - uses: release-drafter/release-drafter@v5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
