@@ -6,7 +6,7 @@ from auth.auth import protected
 from auth.login import login
 from configs.config import auth_settings
 
-app = Sanic("{{cookiecutter.module_name}}")
+app = Sanic("{{cookiecutter.app_name}}")
 app.config.update(auth_settings)
 
 app.blueprint(login)

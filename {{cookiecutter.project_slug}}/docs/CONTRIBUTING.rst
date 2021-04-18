@@ -15,7 +15,7 @@ Types of Contributions
 Report Bugs
 ~~~~~~~~~~~
 
-Report bugs at https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.package_name }}/issues.
+Report bugs at https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/issues.
 
 If you are reporting a bug, please include:
 
@@ -45,7 +45,7 @@ articles, and such.
 Submit Feedback
 ~~~~~~~~~~~~~~~
 
-The best way to send feedback is to file an issue at https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.package_name }}/issues.
+The best way to send feedback is to file an issue at https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/issues.
 
 If you are proposing a feature:
 
@@ -57,17 +57,17 @@ If you are proposing a feature:
 Get Started!
 ------------
 
-Ready to contribute? Here's how to set up `{{ cookiecutter.project_name }}` for local development.
+Ready to contribute? Here's how to set up `{{ cookiecutter.project_slug }}` for local development.
 
-1. Fork the `{{ cookiecutter.project_name }}` repo on GitHub.
+1. Fork the `{{ cookiecutter.project_slug }}` repo on GitHub.
 2. Clone your fork locally::
 
-    $ git clone git@github.com:your_name_here/{{ cookiecutter.package_name }}.git
+    $ git clone git@github.com:your_name_here/{{ cookiecutter.project_slug }}.git
 
 3. Install your local copy into a virtualenv. Assuming you have virtualenv installed, this is how you set up your fork for local development::
 
-    $ mkvirtualenv {{ cookiecutter.module_name }}
-    $ cd {{ cookiecutter.module_name }}/
+    $ mkvirtualenv {{ cookiecutter.project_slug }}
+    $ cd {{ cookiecutter.project_slug }}/
     $ python setup.py develop
 
 4. Create a branch for local development::
@@ -79,7 +79,7 @@ Ready to contribute? Here's how to set up `{{ cookiecutter.project_name }}` for 
 5. When you're done making changes, check that your changes pass flake8 and the
    tests, including testing other Python versions with tox::
 
-    $ flake8 {{ cookiecutter.module_name }} tests
+    $ flake8 {{ cookiecutter.project_slug }} tests
     $ python setup.py test or pytest
     $ tox
 
@@ -111,8 +111,8 @@ Tips
 
 To run a subset of tests::
 
-    $ pytest tests.test_{{ cookiecutter.module_name }}
-    $ python -m unittest tests.test_{{ cookiecutter.module_name }}
+    $ pytest tests.test_{{ cookiecutter.project_slug }}
+    $ python -m unittest tests.test_{{ cookiecutter.project_slug }}
 
 =======
 

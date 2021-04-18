@@ -1,8 +1,8 @@
 {
-    "package_name": "sanic-project",
-    "project_name": "Sanic Project",
+    "package-name": "sanic-project",
+    "project_slug": "sanic_project",
+    "project_title": "Sanic Project",
     "project_short_description": "A start-up Sanic project",
-    "module_name": "sanic-project",
     "app_name": "Startup App",
     "full_name": "Leisure Mojo",
     "version": "0.0.0",

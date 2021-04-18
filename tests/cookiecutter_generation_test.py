@@ -7,7 +7,7 @@ def context():
         "package_name": "test-generator",
         "project_name": "Test Project",
         "project_short_description": "test",
-        "module_name": "test_app",
+        "project_slug": "test_app",
         "app_name": "Test App",
         "full_name": "test",
         "version": "0.0.0",

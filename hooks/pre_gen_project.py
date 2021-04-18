@@ -1,16 +1,28 @@
-import re
 import sys
 
+from hooks.template_tag_validation import (
+    is_valid_module_name,
+    is_valid_package_name,
+)
 
-MODULE_REGEX = r"^[_a-zA-Z][_a-zA-Z0-9]+$"
 
-module_name = "{{ cookiecutter.module_name }}"
-
-if not re.match(MODULE_REGEX, module_name):
+if not is_valid_module_name("{{ cookiecutter.project_slug }}"):
     print(
-        """ERROR: The project module name (%s) is not a valid Python module name.
-    Please do not use a - and use _ instead"""
-        % module_name
+        """ERROR: The project module name ({{ cookiecutter.project_slug }}) is
+        not a valid Python module name.
+        Please use a short, all-lowercase name. Underscores (_) can be
+        used in the module name if it improves readability."""
+    )
+
+    # Exit to cancel project
+    sys.exit(1)
+
+if not is_valid_package_name("{{ cookiecutter.package-name }}"):
+    print(
+        """ERROR: The project package name ({{ cookiecutter.package-name }})
+        is not valid Python package.
+        Please use a short, all-lowercase name. Dashes (-) can be used
+        in the module name if it improves readability. """
     )
 
     # Exit to cancel project

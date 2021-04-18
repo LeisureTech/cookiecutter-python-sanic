@@ -9,7 +9,7 @@ services:
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=123456
-      - POSTGRES_DB={{cookiecutter.module_name}}
+      - POSTGRES_DB={{cookiecutter.project_slug}}
 
   redis:
     image: redis:6.2-alpine

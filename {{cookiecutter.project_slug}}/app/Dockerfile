@@ -14,7 +14,7 @@ COPY requirements.txt /app
 # install dependencies
 RUN pip3 install -r requirements.txt  --no-cache-dir
 
-# copy the content of the local {{cookiecutter.module_name}} directory to the working directory
+# copy the content of the local {{cookiecutter.project_slug}} directory to the working directory
 COPY . /app
 EXPOSE 8000
 CMD ["sanic", "server.app"]
