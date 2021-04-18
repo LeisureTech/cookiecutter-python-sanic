@@ -4,7 +4,7 @@ import pytest
 @pytest.fixture
 def context():
     return {
-        "package-name": "test-generator",
+        "package_name": "test-generator",
         "project_name": "Test Project",
         "project_short_description": "test",
         "project_slug": "test_app",
@@ -29,7 +29,7 @@ def test_generation(cookies, context):
     result = cookies.bake(extra_context=context)
     assert result.exit_code == 0
     assert result.exception is None
-    assert result.project.basename == context["module_name"]
+    assert result.project.basename == context["project_slug"]
     assert result.project.isdir()
 
 

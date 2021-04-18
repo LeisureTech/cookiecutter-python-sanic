@@ -1,8 +1,8 @@
 {
-  "package-name": "{{cookiecutter.package-name}}",
-  "project_name": "{{cookiecutter.project_name}}",
-  "project_short_description": "{{cookiecutter.project_short_description}}",
+  "package_name": "{{cookiecutter.package_name}}",
   "project_slug": "{{cookiecutter.project_slug}}",
+  "project_title": "{{cookiecutter.project_title}}",
+  "project_short_description": "{{cookiecutter.project_short_description}}",
   "app_name": "{{cookiecutter.app_name}}",
   "full_name": "{{cookiecutter.full_name}}",
   "version": "{{cookiecutter.version}}",

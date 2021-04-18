@@ -1,5 +1,5 @@
 {
-    "package-name": "sanic-project",
+    "package_name": "sanic-project",
     "project_slug": "sanic_project",
     "project_title": "Sanic Project",
     "project_short_description": "A start-up Sanic project",
