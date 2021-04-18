@@ -1,0 +1,13 @@
+{
+  "package-name": "{{cookiecutter.package-name}}",
+  "project_name": "{{cookiecutter.project_name}}",
+  "project_short_description": "{{cookiecutter.project_short_description}}",
+  "project_slug": "{{cookiecutter.project_slug}}",
+  "app_name": "{{cookiecutter.app_name}}",
+  "full_name": "{{cookiecutter.full_name}}",
+  "version": "{{cookiecutter.version}}",
+  "github_username": "{{cookiecutter.github_username}}",
+  "email": "{{cookiecutter.email}}",
+  "port": "{{cookiecutter.port}}",
+  "open_source_license": "{{cookiecutter.open_source_license}}"
+}

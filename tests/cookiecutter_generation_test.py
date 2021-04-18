@@ -4,7 +4,7 @@ import pytest
 @pytest.fixture
 def context():
     return {
-        "package_name": "test-generator",
+        "package-name": "test-generator",
         "project_name": "Test Project",
         "project_short_description": "test",
         "project_slug": "test_app",
