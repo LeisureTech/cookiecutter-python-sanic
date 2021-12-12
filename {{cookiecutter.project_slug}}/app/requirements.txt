@@ -13,5 +13,5 @@ sanic==21.3.2
 sanic-routing==0.5.2
 ujson==4.0.2
 uvloop==0.15.2
-websockets==9.1
+websockets==10.0
 python-semantic-release==7.15.3
