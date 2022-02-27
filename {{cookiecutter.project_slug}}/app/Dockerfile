@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:impish-20220128
 WORKDIR /app
 
 # To make sure that our versions are up-to-date
