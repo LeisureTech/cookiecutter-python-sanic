@@ -1,4 +1,4 @@
-FROM ubuntu:impish-20220128
+FROM ubuntu:rolling
 WORKDIR /app
 
 # To make sure that our versions are up-to-date
