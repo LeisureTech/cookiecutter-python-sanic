@@ -8,7 +8,7 @@ httptools==0.1.1
 jwt==1.2.0
 multidict==5.1.0
 pycparser==2.20
-PyJWT==2.0.1
+PyJWT==2.4.0
 sanic==21.3.2
 sanic-routing==0.5.2
 ujson==5.4.0
