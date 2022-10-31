@@ -1,4 +1,5 @@
 FROM ubuntu:21.10
+
 WORKDIR /app
 
 # To make sure that our versions are up-to-date
